@@ -1,0 +1,11 @@
+# Core Libraries
+opencv-python
+mediapipe
+numpy
+scikit-learn
+pygame
+gTTS
+
+# Optional but useful for file handling, debugging, and improvements
+pandas
+joblib

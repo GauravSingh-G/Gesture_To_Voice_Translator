@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🖐 Gesture To Voice Translator</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>🖐 Gesture To Voice Translator</h1>
+    <p>Show your trained gestures in front of your camera.</p>
+
+    <div class="video-box">
+      <img src="{{ url_for('video_feed') }}" id="videoFeed" width="720" height="480">
+    </div>
+
+    <footer>
+      <p>Press <b>Ctrl + C</b> in terminal to stop the server.</p>
+    </footer>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

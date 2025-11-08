@@ -1,0 +1,21 @@
+# Ignore Python environments
+env/
+*/env/
+**/env/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore large model or DLL files
+*.dll
+*.pyd
+*.so
+*.exe
+*.npz
+*.pkl
+
+# Ignore VSCode and system files
+.vscode/
+.DS_Store
+Thumbs.db
